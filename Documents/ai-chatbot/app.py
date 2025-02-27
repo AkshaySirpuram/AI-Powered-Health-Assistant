@@ -113,6 +113,14 @@ def main():
         }
         fig = px.bar(data, x="Day", y="Hours of Exercise", title="Weekly Exercise Tracker", color="Hours of Exercise", height=400)
         st.plotly_chart(fig)
-
+        
+    # Footer Section
+    st.markdown("""
+    ---
+    🚀 Developed by [Akshay Sirpuram](https://in.linkedin.com/in/akshay-sirpuram)  
+    🌟 GitHub: [AkshaySirpuram](http://github.com/AkshaySirpuram)  
+    📧 Contact: sakshayrao1265@gmail.com
+    """, unsafe_allow_html=True)
+    
 if __name__ == "__main__":
     main()
